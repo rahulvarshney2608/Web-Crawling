@@ -16,5 +16,5 @@ while True:
   newString = String[0:end]
   print(newString)
   m = input('Do you Want to Search For another Word [Y/N] :')
-	if m == 'n' or m == 'N':
-		break
+  if m == 'n' or m == 'N':
+  	break
