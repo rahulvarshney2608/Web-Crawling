@@ -19,5 +19,5 @@ while True:
   newString1 = newString[0:end]
   print('The Current Stock Value of '+ stock.upper() + ' is $' + newString1 + ' USD')
   m = input('Do you Want to Search For another Stock [Y/N] :')
-	if m == 'n' or m == 'N':
-		break
+  if m == 'n' or m == 'N':
+  	break
