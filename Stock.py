@@ -9,8 +9,6 @@ try:
 		url = url + stock + '?p=' + stock
 		data = urllib.request.urlopen(url).read()
 		data1 = data.decode('utf-8')
-		'''file = open("/home/rahul/Desktop/test.txt",'w') 
-		file.write(data1)'''
 		m = re.search('"currentPrice":{"raw":',data1)
 		start = m.end()
 		end = start + 10
